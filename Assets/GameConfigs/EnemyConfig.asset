@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6dda7256716d4d6d82c25bae8a551f4, type: 3}
+  m_Name: EnemyConfig
+  m_EditorClassIdentifier: 
+  enemyList:
+  - enemyName: E_W1_Melee1
+    atkType: 0
+    atk: 1
+    hp: 5.5
+    moveSpeed: 5
+    atkSpeed: 1
+    atkRange: 0
+    baseKillCoin: 1
+    killGold: 1
+    killGoldRate: 0.5
+  - enemyName: E_W1_Melee2
+    atkType: 0
+    atk: 2
+    hp: 16.5
+    moveSpeed: 5
+    atkSpeed: 1
+    atkRange: 0
+    baseKillCoin: 2
+    killGold: 1
+    killGoldRate: 0.8
+  - enemyName: E_W1_Melee3
+    atkType: 0
+    atk: 1.5
+    hp: 5
+    moveSpeed: 13
+    atkSpeed: 1.5
+    atkRange: 0
+    baseKillCoin: 1
+    killGold: 1
+    killGoldRate: 0.7
+  - enemyName: E_W1_Range1
+    atkType: 1
+    atk: 2
+    hp: 4.5
+    moveSpeed: 6.5
+    atkSpeed: 1
+    atkRange: 20
+    baseKillCoin: 1
+    killGold: 2
+    killGoldRate: 0.9
+  - enemyName: E_W1_Boss1
+    atkType: 0
+    atk: 10
+    hp: 200
+    moveSpeed: 4
+    atkSpeed: 1
+    atkRange: 0
+    baseKillCoin: 10
+    killGold: 100
+    killGoldRate: 1
+  - enemyName: E_W1_Boss2
+    atkType: 0
+    atk: 15
+    hp: 450
+    moveSpeed: 4
+    atkSpeed: 1
+    atkRange: 0
+    baseKillCoin: 50
+    killGold: 500
+    killGoldRate: 1
+  - enemyName: E_W2_Melee1
+    atkType: 0
+    atk: 20
+    hp: 220
+    moveSpeed: 5
+    atkSpeed: 1
+    atkRange: 0
+    baseKillCoin: 1
+    killGold: 2
+    killGoldRate: 0.5
+  - enemyName: E_W2_Melee2
+    atkType: 0
+    atk: 40
+    hp: 600
+    moveSpeed: 5
+    atkSpeed: 1
+    atkRange: 0
+    baseKillCoin: 2
+    killGold: 2
+    killGoldRate: 1
+  - enemyName: E_W2_Melee3
+    atkType: 0
+    atk: 30
+    hp: 200
+    moveSpeed: 13
+    atkSpeed: 1.5
+    atkRange: 0
+    baseKillCoin: 1
+    killGold: 2
+    killGoldRate: 0.9
+  - enemyName: E_W2_Range1
+    atkType: 1
+    atk: 40
+    hp: 180
+    moveSpeed: 6.5
+    atkSpeed: 1
+    atkRange: 20
+    baseKillCoin: 1
+    killGold: 4
+    killGoldRate: 0.8
+  - enemyName: E_W2_Boss1
+    atkType: 0
+    atk: 200
+    hp: 8000
+    moveSpeed: 4
+    atkSpeed: 1
+    atkRange: 0
+    baseKillCoin: 10
+    killGold: 300
+    killGoldRate: 1
+  - enemyName: E_W2_Boss2
+    atkType: 0
+    atk: 300
+    hp: 18000
+    moveSpeed: 4
+    atkSpeed: 1
+    atkRange: 0
+    baseKillCoin: 50
+    killGold: 1500
+    killGoldRate: 1

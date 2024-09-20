@@ -1,0 +1,458 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6667a5a20dfa94eaab52788e28735473, type: 3}
+  m_Name: TurretConfig
+  m_EditorClassIdentifier: 
+  ATK:
+  - nameID: ATK
+    startValue: 5
+    levelUpBase: 1
+    levelUpMulti: 0.5
+    maxValue: 0
+    lvlupStartCoin: 3
+    lvlupBaseCoinPrice: 2
+    lvlupMultiCoinPrice: 2
+    lvlupStartGold: 17
+    lvlupBaseGoldPrice: 8
+    lvlupMultiGoldPrice: 4
+  - nameID: ATK_RANGE
+    startValue: 25
+    levelUpBase: 0.4
+    levelUpMulti: 0
+    maxValue: 37
+    lvlupStartCoin: 22
+    lvlupBaseCoinPrice: 5
+    lvlupMultiCoinPrice: 2
+    lvlupStartGold: 30
+    lvlupBaseGoldPrice: 6
+    lvlupMultiGoldPrice: 2
+  - nameID: ATK_SPEED
+    startValue: 1
+    levelUpBase: 0.05
+    levelUpMulti: 0
+    maxValue: 5
+    lvlupStartCoin: 8
+    lvlupBaseCoinPrice: 3
+    lvlupMultiCoinPrice: 2
+    lvlupStartGold: 30
+    lvlupBaseGoldPrice: 10
+    lvlupMultiGoldPrice: 6
+  - nameID: DOUBLE_SHOT_CHANCE
+    startValue: 0.02
+    levelUpBase: 0.02
+    levelUpMulti: 0
+    maxValue: 0.7
+    lvlupStartCoin: 14
+    lvlupBaseCoinPrice: 4
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 40
+    lvlupBaseGoldPrice: 20
+    lvlupMultiGoldPrice: 9
+  - nameID: DOUBLE_SHOT_PER
+    startValue: 0.4
+    levelUpBase: 0.01
+    levelUpMulti: 0
+    maxValue: 1
+    lvlupStartCoin: 3
+    lvlupBaseCoinPrice: 3
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 20
+    lvlupBaseGoldPrice: 20
+    lvlupMultiGoldPrice: 14
+  - nameID: MULTI_SHOT_CHANCE
+    startValue: 0
+    levelUpBase: 0.01
+    levelUpMulti: 0
+    maxValue: 0.5
+    lvlupStartCoin: 20
+    lvlupBaseCoinPrice: 5
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 100
+    lvlupBaseGoldPrice: 30
+    lvlupMultiGoldPrice: 10
+  - nameID: MULTI_SHOT_TARGET
+    startValue: 2
+    levelUpBase: 1
+    levelUpMulti: 0
+    maxValue: 10
+    lvlupStartCoin: 200
+    lvlupBaseCoinPrice: 100
+    lvlupMultiCoinPrice: 50
+    lvlupStartGold: 5000
+    lvlupBaseGoldPrice: 2000
+    lvlupMultiGoldPrice: 2500
+  - nameID: CRIT_CHANCE
+    startValue: 0
+    levelUpBase: 0.01
+    levelUpMulti: 0
+    maxValue: 0.6
+    lvlupStartCoin: 8
+    lvlupBaseCoinPrice: 2
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 40
+    lvlupBaseGoldPrice: 20
+    lvlupMultiGoldPrice: 10
+  - nameID: CRIT_PER
+    startValue: 1
+    levelUpBase: 0.05
+    levelUpMulti: 0
+    maxValue: 0
+    lvlupStartCoin: 8
+    lvlupBaseCoinPrice: 4
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 40
+    lvlupBaseGoldPrice: 25
+    lvlupMultiGoldPrice: 12
+  - nameID: BOUNCE_CHANCE
+    startValue: 0.05
+    levelUpBase: 0.01
+    levelUpMulti: 0
+    maxValue: 0.4
+    lvlupStartCoin: 10
+    lvlupBaseCoinPrice: 5
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 40
+    lvlupBaseGoldPrice: 20
+    lvlupMultiGoldPrice: 10
+  - nameID: BOUNCE_PER
+    startValue: 0.02
+    levelUpBase: 0.02
+    levelUpMulti: 0
+    maxValue: 0.8
+    lvlupStartCoin: 10
+    lvlupBaseCoinPrice: 4
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 200
+    lvlupBaseGoldPrice: 20
+    lvlupMultiGoldPrice: 25
+  - nameID: BOUNCE_TARGET
+    startValue: 1
+    levelUpBase: 1
+    levelUpMulti: 0
+    maxValue: 5
+    lvlupStartCoin: 250
+    lvlupBaseCoinPrice: 120
+    lvlupMultiCoinPrice: 60
+    lvlupStartGold: 8000
+    lvlupBaseGoldPrice: 8000
+    lvlupMultiGoldPrice: 8000
+  - nameID: RANGER_BONUS
+    startValue: 0
+    levelUpBase: 0.1
+    levelUpMulti: 0
+    maxValue: 0
+    lvlupStartCoin: 4
+    lvlupBaseCoinPrice: 4
+    lvlupMultiCoinPrice: 2
+    lvlupStartGold: 40
+    lvlupBaseGoldPrice: 6
+    lvlupMultiGoldPrice: 2
+  - nameID: STUN_CHANCE
+    startValue: 0.01
+    levelUpBase: 0.01
+    levelUpMulti: 0
+    maxValue: 0.2
+    lvlupStartCoin: 250
+    lvlupBaseCoinPrice: 40
+    lvlupMultiCoinPrice: 2
+    lvlupStartGold: 300
+    lvlupBaseGoldPrice: 100
+    lvlupMultiGoldPrice: 50
+  - nameID: STUN_TIME
+    startValue: 0.01
+    levelUpBase: 0.005
+    levelUpMulti: 0
+    maxValue: 0.15
+    lvlupStartCoin: 20
+    lvlupBaseCoinPrice: 10
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 100
+    lvlupBaseGoldPrice: 20
+    lvlupMultiGoldPrice: 30
+  - nameID: SLOW_CHANCE
+    startValue: 0.1
+    levelUpBase: 0.02
+    levelUpMulti: 0
+    maxValue: 1
+    lvlupStartCoin: 3
+    lvlupBaseCoinPrice: 3
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 40
+    lvlupBaseGoldPrice: 6
+    lvlupMultiGoldPrice: 2
+  - nameID: SLOW_PER
+    startValue: 0.15
+    levelUpBase: 0.01
+    levelUpMulti: 0
+    maxValue: 0.5
+    lvlupStartCoin: 2
+    lvlupBaseCoinPrice: 3
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 35
+    lvlupBaseGoldPrice: 6
+    lvlupMultiGoldPrice: 2
+  - nameID: KNOCK_BACK_CHANCE
+    startValue: 0
+    levelUpBase: 0.01
+    levelUpMulti: 0
+    maxValue: 0.15
+    lvlupStartCoin: 120
+    lvlupBaseCoinPrice: 30
+    lvlupMultiCoinPrice: 10
+    lvlupStartGold: 1500
+    lvlupBaseGoldPrice: 1500
+    lvlupMultiGoldPrice: 1500
+  - nameID: DEAD_HIT_CHANCE
+    startValue: 0
+    levelUpBase: 0.005
+    levelUpMulti: 0
+    maxValue: 0.15
+    lvlupStartCoin: 200
+    lvlupBaseCoinPrice: 100
+    lvlupMultiCoinPrice: 40
+    lvlupStartGold: 2000
+    lvlupBaseGoldPrice: 500
+    lvlupMultiGoldPrice: 50
+  HP:
+  - nameID: HP
+    startValue: 8
+    levelUpBase: 2
+    levelUpMulti: 1
+    maxValue: 0
+    lvlupStartCoin: 10
+    lvlupBaseCoinPrice: 3
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 20
+    lvlupBaseGoldPrice: 5
+    lvlupMultiGoldPrice: 2
+  - nameID: REGEN
+    startValue: 0.08
+    levelUpBase: 0.02
+    levelUpMulti: 0.01
+    maxValue: 0
+    lvlupStartCoin: 15
+    lvlupBaseCoinPrice: 8
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 25
+    lvlupBaseGoldPrice: 5
+    lvlupMultiGoldPrice: 2
+  - nameID: DAMAGE_RESISTANCE
+    startValue: 0
+    levelUpBase: 0.01
+    levelUpMulti: 0
+    maxValue: 0.5
+    lvlupStartCoin: 20
+    lvlupBaseCoinPrice: 7
+    lvlupMultiCoinPrice: 2
+    lvlupStartGold: 15
+    lvlupBaseGoldPrice: 10
+    lvlupMultiGoldPrice: 5
+  - nameID: DODGE
+    startValue: 0
+    levelUpBase: 0.005
+    levelUpMulti: 0
+    maxValue: 0.3
+    lvlupStartCoin: 14
+    lvlupBaseCoinPrice: 5
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 20
+    lvlupBaseGoldPrice: 12
+    lvlupMultiGoldPrice: 16
+  - nameID: DAMAGE_RETURN_CHANCE
+    startValue: 0
+    levelUpBase: 0.02
+    levelUpMulti: 0
+    maxValue: 1
+    lvlupStartCoin: 20
+    lvlupBaseCoinPrice: 4
+    lvlupMultiCoinPrice: 2
+    lvlupStartGold: 20
+    lvlupBaseGoldPrice: 5
+    lvlupMultiGoldPrice: 7
+  - nameID: DAMAGE_RETURN_PER
+    startValue: 0
+    levelUpBase: 0.01
+    levelUpMulti: 0
+    maxValue: 0.45
+    lvlupStartCoin: 10
+    lvlupBaseCoinPrice: 5
+    lvlupMultiCoinPrice: 2
+    lvlupStartGold: 10
+    lvlupBaseGoldPrice: 8
+    lvlupMultiGoldPrice: 8
+  - nameID: LIFE_LEAK
+    startValue: 0
+    levelUpBase: 0.001
+    levelUpMulti: 0
+    maxValue: 0.1
+    lvlupStartCoin: 30
+    lvlupBaseCoinPrice: 10
+    lvlupMultiCoinPrice: 5
+    lvlupStartGold: 2000
+    lvlupBaseGoldPrice: 1000
+    lvlupMultiGoldPrice: 500
+  - nameID: SHIELD
+    startValue: 0
+    levelUpBase: 3
+    levelUpMulti: 1
+    maxValue: 0
+    lvlupStartCoin: 24
+    lvlupBaseCoinPrice: 8
+    lvlupMultiCoinPrice: 3
+    lvlupStartGold: 44
+    lvlupBaseGoldPrice: 16
+    lvlupMultiGoldPrice: 4
+  - nameID: SHIELD_CD
+    startValue: 5
+    levelUpBase: 0.05
+    levelUpMulti: 0.01
+    maxValue: 2
+    lvlupStartCoin: 30
+    lvlupBaseCoinPrice: 5
+    lvlupMultiCoinPrice: 2
+    lvlupStartGold: 24
+    lvlupBaseGoldPrice: 8
+    lvlupMultiGoldPrice: 4
+  COIN:
+  - nameID: COIN_PER_WAVE
+    startValue: 2
+    levelUpBase: 1
+    levelUpMulti: 1
+    maxValue: 0
+    lvlupStartCoin: 10
+    lvlupBaseCoinPrice: 5
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 65
+    lvlupBaseGoldPrice: 20
+    lvlupMultiGoldPrice: 10
+  - nameID: COIN_PER_50_KILL
+    startValue: 0
+    levelUpBase: 4
+    levelUpMulti: 1
+    maxValue: 0
+    lvlupStartCoin: 30
+    lvlupBaseCoinPrice: 10
+    lvlupMultiCoinPrice: 5
+    lvlupStartGold: 165
+    lvlupBaseGoldPrice: 30
+    lvlupMultiGoldPrice: 12
+  - nameID: GOLD_PER_100_KILL
+    startValue: 0
+    levelUpBase: 2
+    levelUpMulti: 0
+    maxValue: 0
+    lvlupStartCoin: 20
+    lvlupBaseCoinPrice: 8
+    lvlupMultiCoinPrice: 2
+    lvlupStartGold: 700
+    lvlupBaseGoldPrice: 100
+    lvlupMultiGoldPrice: 20
+  - nameID: BOSS_GOLD
+    startValue: 0
+    levelUpBase: 2
+    levelUpMulti: 0
+    maxValue: 0
+    lvlupStartCoin: 50
+    lvlupBaseCoinPrice: 15
+    lvlupMultiCoinPrice: 5
+    lvlupStartGold: 300
+    lvlupBaseGoldPrice: 40
+    lvlupMultiGoldPrice: 10
+  - nameID: GOLD_PER_WAVE
+    startValue: 0
+    levelUpBase: 1
+    levelUpMulti: 0
+    maxValue: 0
+    lvlupStartCoin: 12
+    lvlupBaseCoinPrice: 6
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 200
+    lvlupBaseGoldPrice: 35
+    lvlupMultiGoldPrice: 12
+  - nameID: DISCOUNT
+    startValue: 0
+    levelUpBase: 0.003
+    levelUpMulti: 0
+    maxValue: 0.5
+    lvlupStartCoin: 100
+    lvlupBaseCoinPrice: 50
+    lvlupMultiCoinPrice: 10
+    lvlupStartGold: 650
+    lvlupBaseGoldPrice: 200
+    lvlupMultiGoldPrice: 65
+  SATELLITE:
+  - nameID: SATELLITE_COUNT
+    startValue: 0
+    levelUpBase: 1
+    levelUpMulti: 0
+    maxValue: 5
+    lvlupStartCoin: 100
+    lvlupBaseCoinPrice: 50
+    lvlupMultiCoinPrice: 45
+    lvlupStartGold: 1000
+    lvlupBaseGoldPrice: 500
+    lvlupMultiGoldPrice: 250
+  - nameID: SATELLITE_DAMAGE
+    startValue: 1000
+    levelUpBase: 20
+    levelUpMulti: 10
+    maxValue: 0
+    lvlupStartCoin: 12
+    lvlupBaseCoinPrice: 1
+    lvlupMultiCoinPrice: 1
+    lvlupStartGold: 20
+    lvlupBaseGoldPrice: 10
+    lvlupMultiGoldPrice: 5
+  - nameID: SATELLITE_STUN_TIME
+    startValue: 0.2
+    levelUpBase: 0.01
+    levelUpMulti: 0
+    maxValue: 0.5
+    lvlupStartCoin: 20
+    lvlupBaseCoinPrice: 10
+    lvlupMultiCoinPrice: 5
+    lvlupStartGold: 60
+    lvlupBaseGoldPrice: 20
+    lvlupMultiGoldPrice: 10
+  - nameID: BOOM_COUNT
+    startValue: 0
+    levelUpBase: 1
+    levelUpMulti: 0
+    maxValue: 6
+    lvlupStartCoin: 200
+    lvlupBaseCoinPrice: 100
+    lvlupMultiCoinPrice: 50
+    lvlupStartGold: 2000
+    lvlupBaseGoldPrice: 2000
+    lvlupMultiGoldPrice: 1000
+  - nameID: BOOM_DAMAGE
+    startValue: 600
+    levelUpBase: 40
+    levelUpMulti: 10
+    maxValue: 0
+    lvlupStartCoin: 20
+    lvlupBaseCoinPrice: 5
+    lvlupMultiCoinPrice: 2
+    lvlupStartGold: 50
+    lvlupBaseGoldPrice: 20
+    lvlupMultiGoldPrice: 5
+  - nameID: BOOM_RANGE
+    startValue: 4
+    levelUpBase: 0.2
+    levelUpMulti: 0
+    maxValue: 12
+    lvlupStartCoin: 30
+    lvlupBaseCoinPrice: 10
+    lvlupMultiCoinPrice: 2
+    lvlupStartGold: 100
+    lvlupBaseGoldPrice: 40
+    lvlupMultiGoldPrice: 8

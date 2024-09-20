@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ecde9bcc6a674d018f3693a9ed7b4b8, type: 3}
+  m_Name: TurretLockConfig
+  m_EditorClassIdentifier: 
+  ATK:
+  - attSet:
+    - ATK
+    - ATK_RANGE
+    - ATK_SPEED
+    unlockPrice: 0
+  - attSet:
+    - CRIT_CHANCE
+    - CRIT_PER
+    unlockPrice: 200
+  - attSet:
+    - SLOW_CHANCE
+    - SLOW_PER
+    unlockPrice: 400
+  - attSet:
+    - RANGER_BONUS
+    unlockPrice: 550
+  - attSet:
+    - DOUBLE_SHOT_CHANCE
+    - DOUBLE_SHOT_PER
+    unlockPrice: 2000
+  - attSet:
+    - MULTI_SHOT_CHANCE
+    - MULTI_SHOT_TARGET
+    unlockPrice: 5000
+  - attSet:
+    - BOUNCE_CHANCE
+    - BOUNCE_PER
+    - BOUNCE_TARGET
+    unlockPrice: 10000
+  - attSet:
+    - STUN_CHANCE
+    - STUN_TIME
+    unlockPrice: 10000
+  - attSet:
+    - KNOCK_BACK_CHANCE
+    unlockPrice: 20000
+  - attSet:
+    - DEAD_HIT_CHANCE
+    unlockPrice: 35000
+  DEFENSE:
+  - attSet:
+    - HP
+    - REGEN
+    unlockPrice: 0
+  - attSet:
+    - DAMAGE_RESISTANCE
+    unlockPrice: 300
+  - attSet:
+    - DODGE
+    unlockPrice: 600
+  - attSet:
+    - DAMAGE_RETURN_CHANCE
+    - DAMAGE_RETURN_PER
+    unlockPrice: 1000
+  - attSet:
+    - SHIELD
+    - SHIELD_CD
+    unlockPrice: 2000
+  - attSet:
+    - LIFE_LEAK
+    unlockPrice: 3500
+  RESOURCE:
+  - attSet: []
+    unlockPrice: 0
+  - attSet:
+    - GOLD_PER_WAVE
+    - GOLD_PER_100_KILL
+    unlockPrice: 1000
+  - attSet:
+    - BOSS_GOLD
+    unlockPrice: 2000
+  - attSet:
+    - DISCOUNT
+    unlockPrice: 5000
+  ALLIES:
+  - attSet: []
+    unlockPrice: 0
+  - attSet:
+    - SATELLITE_COUNT
+    - SATELLITE_DAMAGE
+    - SATELLITE_STUN_TIME
+    unlockPrice: 3500
+  - attSet:
+    - BOOM_COUNT
+    - BOOM_DAMAGE
+    - BOOM_RANGE
+    unlockPrice: 10000
